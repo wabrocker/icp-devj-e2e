@@ -3,27 +3,7 @@
     "e2e_tests_backend": {
       "main": "src/e2e_tests_backend/main.mo",
       "type": "motoko"
-    },
-    "e2e_tests_frontend": {
-      "dependencies": [
-        "e2e_tests_backend"
-      ],
-      "frontend": {
-        "entrypoint": "src/e2e_tests_frontend/src/index.html"
-      },
-      "source": [
-        "src/e2e_tests_frontend/assets",
-        "dist/e2e_tests_frontend/"
-      ],
-      "type": "assets"
     }
   },
-  "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
-  },
-  "output_env_file": ".env",
   "version": 1
 }
